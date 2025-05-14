@@ -1,13 +1,6 @@
 # Pytorch Implementation of CleanUNet
 
-This repo contains official PyTorch implementation of CleanUNet: [Speech Denoising in the Waveform Domain with Self-Attention](https://arxiv.org/abs/2202.07790). CleanUNet is a causal speech denoising
-model on the raw waveform. It is based
-on an encoder-decoder architecture combined with several
-self-attention blocks to refine its bottleneck representations,
-which is crucial to obtain good results. The model is optimized
-through a set of losses defined over both waveform and multi-resolution spectrograms. The proposed method outperforms
-the state-of-the-art models in terms of denoised speech quality
-from various objective and subjective evaluation metrics. Sound demos can be found in [This blog](https://nv-adlr.github.io/projects/cleanunet/).
+We use [CleanUNet](https://github.com/NVIDIA/CleanUNet) to implement this project. CleanUet is a causal speech denoising model on the raw waveform. For more information please look at this paper:[Speech Denoising in the Waveform Domain with Self-Attention](https://arxiv.org/abs/2202.07790)
 
 ## Datasets
 
