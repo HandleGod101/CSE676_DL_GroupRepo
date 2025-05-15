@@ -10,7 +10,7 @@ We use [CleanUNet](https://github.com/NVIDIA/CleanUNet) to implement this projec
 
 ## Training
 
-Training step follows the [CleanUNet](https://github.com/NVIDIA/CleanUNet). 8GPUs are used for training. It took 12 hours in NVIDIA RTX A6000.
+Training step follows the [CleanUNet](https://github.com/NVIDIA/CleanUNet). 8GPUs are used for training. It took 12 hours in NVIDIA RTX A6000. We use linear warmup and cosine annealing for the learning rate.
 
 ## Evaluation
 
